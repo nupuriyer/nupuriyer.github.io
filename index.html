@@ -47,7 +47,7 @@
     </div>
   </div>
   <!-- ***** Preloader End ***** -->
-
+  <p>Please note, this website is under migration. Some links are still being set up. For details, please contact me at nupur99iyer@gmail.com</p>
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
@@ -67,7 +67,7 @@
               <li class="scroll-to-section"><a href="#projects">Projects</a></li>
               <li class="scroll-to-section"><a href="#certificates">Certifications</a></li>
               <li class="scroll-to-section"><a href="#clients">Reviews</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="assets/pdf/Nupur Iyer Resume 07032023.pdf"><i class="fa fa-sign-in-alt"></i> Download my Resume</a></div></li> 
+              <li><div class="gradient-button"><a id="modal_trigger" href="assets/pdf/NUPUR IYER RESUME ABRIDGED.pdf"><i class="fa fa-sign-in-alt"></i> Download my Resume</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -98,7 +98,7 @@
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="">
+                <img src="assets/images/cam_profile_round.png" alt="">
               </div>
             </div>
           </div>
@@ -118,11 +118,6 @@
               <em><b>If being a student were a profession, I'd be a millionaire!</b> <br>
 
               I'm an <b>Artificial Intelligence Safety Analyst</b> trying to unravel the mysteries of thought and imagination using Artificial Intelligence. I have worked with AI in numerous ways so far and hope to better my understanding of the field by studying ML-rich solutions to real-world problems. Simply put, I wish to reiterate the fact that I am a result of billions of years of evolution, by identifying the requirements of society and how best to cater to them to make our world more liveable each day!</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="right-image">
-            <img src="assets/images/about-right-dec.png" alt="">
           </div>
         </div>
       </div>
@@ -146,44 +141,101 @@
         <div class="col-lg-3">
           <div class="service-item first-service">
             <div class="icon"></div>
-            <h4>Variational Autoencoder (VAE) & Decoder</h4>
-            <p>- VAE applied to images of faces to predict how the face transforms over time (by age)<br>
-              - Anomaly Detection applied on videos per frame<br>
-              - Image cleaning and denoising using an autoencoder architecture, applied on the MNIST digit dataset</p>
+            <h4>Conversations with an AI: Psych Eval of ChatGPT</h4>
+            <p>aims to study the psychological side of the AI in question (ChatGPT). <br>
+              I do not want ChatGPT to help me with my work. Instead, I want to study the tool via conversations targeted towards what the AI “inherently knows.”</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              <a href="https://medium.com/@nupuriyer/conversations-with-an-ai-958311d848da">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div id="nlpsa" class="col-lg-3">
           <div class="service-item second-service">
             <div class="icon"></div>
             <h4>Sentiment Analysis with NLP</h4>
-            <p>Using NLP tokenization (the Bag of Words implementation) for sentiment analysis of customer reviews for <b>Target</b> (American retailer brand)  scraped from TrustPilot</p>
+            <p>Using NLP tokenization for sentiment analysis of customer reviews for <b>Target</b> (American retailer brand)  scraped from TrustPilot</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              <a href="#nlpsa_open" onclick="document.getElementById('nlpsa').innerHTML = document.getElementById('nlpsa_open').innerHTML">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+
+        <div id="nlpsa_open" class="col-lg-3" style="display: none;">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Sentiment Analysis with NLP</h4>
+            <p>The transition from numbers to alphabets was a quantum leap for computing. It allowed programmers to go from assembly language that allowed users to simply code in 1's and 0's, to creating methodologies that allowed programmers to code in an easier to understand and a much more transferable language quite similar to english. <br>
+              A similar leap in AI was the machine's ability to understand words and map them directly to their meaning. This allowed systems to grasp the "context" of a sentence and thereby predict which word came next. This is the basic structure of language models. Such models are a probabilistic approach to predicting the next word or term in a sequence of words or a sentence. Simply put, language models predict the likelihood of some word that will appear next in a sentence. The overall process here can be broken down into the following steps:<br>
+              Understand the word: Many languages contain numerous words that may mean the same thing or to make things more difficult, mean completely different things based on the context. This brings us to the next step<br>
+              Understand the context: Different contexts can decide the tone of a sentence, its structure or even its meaning.<br>
+              Predict the likelihood: A self explanatory step, but a complex one, predicting the likelihood of the next word involves converting the above two steps into numbers.<br>
+              Steps 1 and 2 require a model to understand rather abstract concepts. In the context of this article (hehe, context) abstract refers to any concept that cannot be translated directly into plain and easy-to-understand numbers. These five give rise to qualitative metrics.<br>
+              For an AI to make sense of it all, everything has to come down to numbers. That is, in my opinion, the beauty of AI - it can accomplish the most complex tasks possible all by deconstructing these phenomena into plain and simply statistical inference. <br>
+              This project aims to utilize the above concept to conduct a sentiment analysis study on customer reviews related to Target, an American retail organization. The reviews under study were scraped from TrustPilot, an online platform where customer reviews are accessible to the public.
+              </p>
+            <div class="text-button">
+              <a href="https://github.com/nupuriyer/target_sentiment_analysis/tree/main" target="_blank">See the full project code <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="nlpcc" class="col-lg-3">
           <div class="service-item third-service">
             <div class="icon"></div>
             <h4>NLP Commonality Clustering</h4>
             <p>Hierarchical clustering for duplicate identification and removal on the CPIN (Child Protection &amp Information Network, Ontario) database</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              <a href="#nlpcc_open" onclick="document.getElementById('nlpcc').innerHTML = document.getElementById('nlpcc_open').innerHTML">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+
+        <div id="nlpcc_open" class="col-lg-3" style="display: none;">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>NLP Commonality Clustering</h4>
+            <p>Child Protection Information Network (CPIN) is a database where child-related agencies upload and track information of all children they have assisted. Records in CPIN should be unique as each record corresponds to exactly one child. However, CPIN is facing a severe issue of duplicate records with the total number of 888K, which is caused by either the data migration of multiple files or multiple uploads of the same child's info from CPIN users. The huge database makes searching difficult, increases maintenance costs and lowers working efficiency.<br>
+              The goal of this project is to address the problem of record duplication with an agglomerative clustering mechanism powered by Natural Language Processing. With the help of this mechanism, we aim to flag data duplication across the CPIN database for regular analysis and removal.
+              The solution architecture for the above system can be described as follows:<br>
+              Bag of Words: The CPIN database stores textual information such as applicant name, address, date of birth, ethnicity, etc. In order to perform clustering, we first preprocess this data to form record documents. This converts every row of the dataset into a “document” identified by row_id.  Following this, we perform a Term Frequency - Inverse Document Frequency (tf-idf) vector that specifies how common a specific term (name, address, any column entry) is to a document (a row).<br>
+              Agglomerative Clustering: Once we obtain a tf-idf matrix, we perform agglomerative clustering based on euclidean distance (for maximum explainability) to obtain clusters of rows. These clusters will be formed based on how “similar” a record is to another record, thereby giving us clusters containing the main record and all duplicate records associated with it.<br>
+              Golden Record: Once we have a cluster containing all similar records, we mark the record containing the most amount of information (or the least NULL's) as the main record and label all others as duplicates.<br> 
+              Monitoring and Maintenance: Monitoring of the system will occur regularly by randomly picking files within the different set Euclidean distance buckets in order to ensure that new files are still being clustered correctly. Further, CPIN workers will be able to adjust distance thresholds if needed. Regular maintenance will be performed on the system to perform potential updates and potential fixes to the system.
+              </p>
+            <div class="text-button">
+              <a href="https://drive.google.com/file/d/1PiaeAjPXjV2JikaFHGHJjdAOlU0OhBGs/view?usp=sharing" target="_blank">Request the full project report <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="candy" class="col-lg-3">
           <div class="service-item fourth-service">
             <div class="icon"></div>
             <h4>Object Identification: the Candy Counter project</h4>
             <p>Demonstrating the object detection model powered by HuggingFace to create a custom, fine-tuned candy counter model</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
-              <br>
-              See older projects <a href="#">here <i class="fa fa-arrow-right"></i></a>
+              <a href="#candy_open" onclick="document.getElementById('candy').innerHTML = document.getElementById('candy_open').innerHTML">Read More <i class="fa fa-arrow-right"></i></a><br>
+              See older projects <a href="projects.html">here <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="candy_open" class="col-lg-3" style="display: none;">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>Object Identification: the Candy Counter project</h4>
+            <p>The Candy Counter project utilizes Hugging Face's DETR object identification model and fine tunes it to a custom dataset of different types of candy images. The project uses a few-shot learning approach as the final results are obtained using a small dataset for training (~20 images)<br>
+              Object detection, a task in computer vision, allows users to create machine systems that can identify not only the number of different objects in a picture frame, but also segregate between the different types of these objects. For instance, such models can be used to either identify the different obstacles in a track or the different types of elements such as vehicles, street signs, etc in a frame.<br>
+              The major problem when training object detectors is the availability of data. In order to specify different types of elements in a frame, the model needs access to a repository of pictures of these elements in different lighting, different backgrounds and other such settings. Since it isn't feasible to have access to such data for custom projects, we make use of models already trained on a wide variety of object detection tasks.<br>
+              Fine-tuning and transfer learning allow users to utilize pre-existing model architecture and customize it to better fit the requirements of the user.
+              The Candy counter project uses this methodology by fine-tuning the DETR model by Huggingface. The project is meant to demonstrate the scalability of the model and allow accurate object detection using a handful of example pictures.
+              The entire project can be broken down into three phases:<br>
+              Labeling the images: In order to label the different types of candy in a picture, we make use of Label Studio. Since the candy image dataset is small, the labeling process for this project is manual.<br>
+              Preprocessing: Since we are fine-tuning to an existing model, we introduce a preprocessing phase to ensure that the input file format matches the input requirements of the DETR model. We will also ensure folder structures are as required for the model to process images correctly<br>
+              Fitting & Evaluation: Finally, this phase ensures that we find the best possible hyperparameters to maximize model performance, i.e., ensure high accuracy while trying to minimize resource usage to prioritize efficiency.</p>
+            <div class="text-button">
+              <a href="https://github.com/nupuriyer/object_identification" target="_blank">See project code <i class="fa fa-arrow-right"></i></a><br>
+              See older projects <a href="projects.html">here <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -270,7 +322,7 @@
               <img src="assets/images/pricing-table-01.png" alt="">
             </div>
             <div class="border-button">
-              <a href="#">See details here</a>
+              <a href="https://www.coursera.org/collections/machine-learning">See details here</a>
             </div>
           </div>
         </div>
@@ -286,7 +338,7 @@
               <img src="assets/images/pricing-table-02.png" alt="">
             </div>
             <div class="border-button">
-              <a href="#">See details here</a>
+              <a href="https://medium.com/udacity/introducing-udacitys-secure-private-ai-course-fe20bfa3b0ff">See details here</a>
             </div>
           </div>
         </div>
@@ -301,7 +353,7 @@
               <img src="assets/images/pricing-table-01.png" alt="">
             </div>
             <div class="border-button">
-              <a href="#">See all certifications here</a>
+              <a href="certificates.html">See all certifications here</a>
             </div>
           </div>
         </div>
@@ -309,33 +361,134 @@
     </div>
   </div> 
 
-  <footer id="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Let's connect online!</h4>
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-3">
-          <form id="search" action="#" method="GET">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <button type="submit" class="main-button">Email <i class="fa fa-angle-right"></i></button>
-                </fieldset>
-              </div>
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Connect with Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Connect with Google</span>
+                </a>
             </div>
-          </form>
+
+            <div class="centeredText">
+                <span>Or use your Email address</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Full Name</label>
+                <input type="text" />
+                <br />
+
+                <label>Email Address</label>
+                <input type="email" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer id="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading">
+          <h4>Let's connect online!</h4>
         </div>
       </div>
+      <div class="col-lg-6 offset-lg-3">
+        <form id="search" action="mailto:nupur99iyer@gmail.com" method="GET">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <input type="address" name="address" class="email" placeholder="Type your message here..." autocomplete="on">
+              </fieldset>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <button type="submit" class="main-button">Shoot me an Email <i class="fa fa-angle-right"></i></button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+
+        <form id="search" action="https://www.linkedin.com/in/nupur-iyer/" method="GET">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <input type="address" name="address" class="email" placeholder="Type your message here..." autocomplete="on">
+              </fieldset>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <button type="submit" class="main-button">Let's connect on LinkedIn <i class="fa fa-angle-right"></i></button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 
   <!-- Scripts -->

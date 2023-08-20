@@ -1154,7 +1154,7 @@ About Us
 }
 
 .about-us:after {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/slider-right-dec2.png);
   width: 777px;
   height: 1132px;
   content: '';
@@ -2214,5 +2214,6 @@ responsive
   }
   form#contact {
     padding: 30px;
+    text-align: center;
   }
 }
